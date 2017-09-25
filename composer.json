@@ -1,0 +1,25 @@
+{
+  "name": "hyperzealous/weather",
+  "description": "Weather App",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Wortham",
+      "email": "raptorrepair@gmail.com"
+    }
+  ],
+  "require": {
+    "silex/silex": "v2.2.0",
+    "dflydev/doctrine-orm-service-provider": "v2.0.1",
+    "lavary/crunz": "v1.4.8",
+    "nategood/httpful": "^0.2.20"
+  },
+  "require-dev": {
+    "atoum/atoum": "^3.2",
+    "atoum/stubs": "^2.5"
+  },
+  "autoload": {
+    "psr-0": { "": "src/" }
+  }
+}

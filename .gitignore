@@ -1,0 +1,4 @@
+sqlite.db
+sqlite.test.db
+vendor/
+.idea/

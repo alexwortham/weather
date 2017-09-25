@@ -1,0 +1,15 @@
+version: "2"
+
+services:
+  units:
+    image: "phpcron"
+    environment:
+      - DB_PATH=sqlite.test.db
+    volumes:
+      - ".:/var/www/html"
+    command:
+      - "vendor/bin/atoum"
+      - "--directories"
+      - "src/tests/units"
+      - "--no-code-coverage-for-classes"
+      - "App"

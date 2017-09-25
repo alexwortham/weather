@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  web:
+    build: .
+    image: "phpcron"
+    ports:
+      - "8080:80"
+    volumes:
+      - ".:/var/www/html"
